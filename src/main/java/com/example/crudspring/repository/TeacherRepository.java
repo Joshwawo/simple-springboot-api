@@ -1,13 +1,9 @@
 package com.example.crudspring.repository;
 
-import com.example.crudspring.entity.Student;
+import com.example.crudspring.entity.Teacher;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-//import java.util.Optional;
-
 @Repository
-public interface StudentRepository extends JpaRepository<Student, Long> {
-
-
+public interface TeacherRepository extends JpaRepository<Teacher, Long> {
 }
